@@ -1,0 +1,6 @@
+{
+  "name": "CaDaoPedia - Thư viện ca dao tục ngữ và dị bản (A02)",
+  "description": "Ứng dụng tra cứu, học tập và đối chiếu ca dao, tục ngữ Việt Nam cùng các dị bản vùng miền văn hóa dân gian.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

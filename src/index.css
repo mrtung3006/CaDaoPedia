@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+:root {
+  font-family: 'Be Vietnam Pro', system-ui, -apple-system, sans-serif;
+  color-scheme: light;
+}
+
+/* Elderly Large Text Mode */
+html.elder-text-mode {
+  font-size: 118%;
+}
+
+html.elder-text-mode .proverb-highlight {
+  font-size: 1.45rem !important;
+  line-height: 2rem !important;
+}
+
+html.elder-text-mode button, 
+html.elder-text-mode input,
+html.elder-text-mode select,
+html.elder-text-mode textarea {
+  font-size: 1.125rem !important;
+}
+
+/* Custom Folk Culture Styling */
+.folk-serif {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+/* Custom smooth scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #fdfaf5;
+}
+::-webkit-scrollbar-thumb {
+  background: #d4c5b3;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #b89f82;
+}
+
